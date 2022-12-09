@@ -16,7 +16,7 @@ int main(void)
 
 
 
-for (ch = 'a'; ch <= 'z'; ch++)
+			for (ch = 'a'; ch <= 'z'; ch++)
 
 					{
 
@@ -29,3 +29,5 @@ for (ch = 'a'; ch <= 'z'; ch++)
 					return (0);
 
 }
+
+
