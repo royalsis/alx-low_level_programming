@@ -1,11 +1,11 @@
 #include <stdlib.h>
-#include <tiime.h>
+#include <time.h>
 #include <stdio.h>
 
 /**
  * main - print arandom no
  *
- * Return: 0 *
+ * Return: 0
  */
 int main(void)
 {
@@ -13,6 +13,7 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
+	/* my code goes here */
 	if (n > 0)
 	      printf("%d is positive\n", n);
 else if (n < 0)
@@ -20,3 +21,4 @@ else if (n < 0)
 	else
 	      printf("%d is zero\n", n);
 	return (0);
+}
