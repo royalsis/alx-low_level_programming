@@ -1,16 +1,15 @@
-#include main.h
+#include "main.h"
 
 /**
- * main program print _puchar.c
- * with out using global standard sign
+ * main - prints _puchar.c
+ *
  * Return: 0
  *
 */
 
 int main(void)
 {
-	int char(_putchar = _putchar);
-
-	_putchar("putchar\n");
+	_putchar("putchar");
+	_putchar("\n");
 return (0);
 }
