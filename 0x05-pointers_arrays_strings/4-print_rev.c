@@ -6,33 +6,29 @@
  * @s: string
  *
  * return: 0
+ *
 */
 
-void print_rev(char *s)
+void reverse_array(int *a, int n)
 {
-	int longi = 0;
+	int i, temp;
+	
+	i = 0;
 
-	int o;
+	n--;
 
-	while (*s != '\0')
-
-	{
-		longi++;
-
-		s++;
-	}
-
-	s--;
-
-	for (o = longi; o > 0; o--)
+	while (i < n)
 
 	{
+		temp = a[i];
 
-		_putchar(*s)i;
+		a[i] = a[n];
 
-		s--;
+		a[n] = temp;
 
+		i++;
+
+		n--;
 	}
-	_putchar('\n');
 }
 
