@@ -3,8 +3,8 @@
 /**
  * _strcat - concatenates two strings
  * This function appends the src string to the dest string
- * @dest : value move
- * @src : value source
+ * @dest : input value
+ * @src : input value
  * Return: resulting string dest
 */
 
