@@ -2,9 +2,9 @@
 
 /**
  * _strcat - concatenates two strings
- * This function appends the src string to the dest string
- * @dest : input value
- * @src : input value
+ * This function
+ *@dest: input value
+ *@src: input value
  * Return: resulting string dest
 */
 
