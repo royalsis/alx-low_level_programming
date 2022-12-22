@@ -2,7 +2,6 @@
 
 /**
  * _strcat - concatenates two strings
- * This function
  *@dest: input value
  *@src: input value
  * Return: resulting string dest
